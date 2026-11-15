@@ -1,0 +1,102 @@
+/* Sổ Tri Ân – A4 dọc, in bằng trình duyệt */
+@page { size: A4 portrait; margin: 0; }
+
+body.book { background: #6B7280; margin: 0; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+/* Thanh công cụ màn hình */
+.toolbar { position: sticky; top: 0; z-index: 50; display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 10px 16px; background: var(--navy); color: #fff; flex-wrap: wrap; }
+.tb-left { display: flex; align-items: center; gap: 10px; }
+.tb-left img { width: 38px; height: 38px; border-radius: 50%; background: #fff; object-fit: contain; }
+.tb-left div { display: grid; line-height: 1.25; }
+.tb-status { font-size: 13px; color: #C9D3EA; }
+.tb-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.tb-help { position: relative; font-size: 14px; }
+.tb-help summary { cursor: pointer; color: #FFD9A8; font-weight: 600; }
+.tb-help ol { position: absolute; right: 0; top: 28px; width: 320px; background: #fff; color: var(--ink); border-radius: 12px; padding: 12px 12px 12px 30px; box-shadow: var(--shadow); margin: 0; }
+.bk-error { max-width: 520px; margin: 60px auto; background: #fff; border-radius: 16px; padding: 24px; text-align: center; font-weight: 600; }
+
+/* Tờ A4 */
+.page {
+  width: 210mm; height: 296.6mm; margin: 10mm auto; background: #fff; position: relative; overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,.35); display: flex; flex-direction: column;
+  padding: 11mm 14mm 9mm; break-after: page; page-break-after: always; break-inside: avoid;
+  font-size: 11pt; color: var(--ink);
+}
+.measure { position: absolute; left: -10000px; top: 0; visibility: hidden; display: grid; gap: 5mm; }
+.measure > * { width: 100%; }
+
+.pg-head { display: flex; align-items: center; gap: 3mm; padding-bottom: 2.5mm; border-bottom: .4mm solid var(--orange); font-size: 8.5pt; color: var(--navy); font-weight: 600; flex: 0 0 auto; }
+.pg-head img { width: 7mm; height: 7mm; object-fit: contain; }
+.pg-to { margin-left: auto; color: var(--muted); font-weight: 500; }
+.pg-foot { order: 10; flex: 0 0 auto; display: flex; justify-content: space-between; align-items: center; padding-top: 2.5mm; border-top: .2mm solid var(--line); font-size: 8.5pt; color: var(--muted); }
+.pg-no { font-weight: 700; color: var(--navy); }
+.sec-title { margin: 4mm 0 0; font-size: 17pt; color: var(--navy); flex: 0 0 auto; }
+.sec-title::after { content: ''; display: block; width: 18mm; height: 1mm; background: var(--orange); border-radius: 1mm; margin-top: 1.5mm; }
+.sec-note { margin: 2mm 0 0; color: var(--muted); font-size: 9.5pt; flex: 0 0 auto; }
+
+.area { flex: 1 1 auto; min-height: 0; margin-top: 5mm; display: flex; flex-direction: column; gap: 5mm; justify-content: center; }
+.area.center { align-items: center; color: var(--muted); }
+.area.secrets { justify-content: flex-start; }
+.bk-row { display: flex; gap: 5mm; justify-content: flex-start; align-items: flex-start; }
+.bk-row.n1 { justify-content: center; }
+.bk-row > .bk-card { width: calc((100% - 5mm) / 2); flex: 0 0 auto; }
+
+.bk-card { margin: 0; break-inside: avoid; }
+.bk-card figcaption { margin-top: 1.5mm; font-size: 8.5pt; color: var(--muted); text-align: center; }
+.bk-card figcaption .by { color: var(--navy); font-weight: 600; }
+
+.bk-secret { background: #FFFBF3; border-left: 1.2mm solid var(--orange); border-radius: 1mm 4mm 4mm 4mm; padding: 4mm 5mm 3mm; break-inside: avoid; }
+.bk-secret p { margin: 0 0 2mm; white-space: pre-wrap; word-break: break-word; font-size: 11pt; line-height: 1.6; }
+.bk-secret-from { text-align: right; color: var(--muted); font-size: 9.5pt; }
+.hand { font-family: var(--hand); font-size: 15pt; color: var(--navy); }
+
+/* Bìa */
+.page.cover { padding: 12mm; background: linear-gradient(180deg, #FFFDF8 0%, #FFF4E3 100%); }
+.cv-frame {
+  flex: 1; border: 1.2mm solid var(--navy); outline: .5mm solid var(--orange); outline-offset: -3.5mm;
+  border-radius: 4mm; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 14mm 12mm;
+}
+.cv-school { letter-spacing: .5em; font-weight: 800; color: var(--navy); font-size: 11pt; margin-right: -.5em; }
+.cv-logo { width: 72mm; height: 72mm; object-fit: contain; margin: 6mm 0 4mm; }
+.cv-title { margin: 0; font-size: 46pt; line-height: 1.05; color: var(--navy); font-weight: 800; letter-spacing: -.01em; }
+.cv-date { margin-top: 3mm; font-size: 20pt; font-weight: 800; color: var(--orange); letter-spacing: .08em; }
+.cv-sub { font-size: 11pt; color: var(--muted); margin-top: 1mm; }
+.cv-photo { width: 42mm; height: 42mm; border-radius: 50%; object-fit: cover; border: 1.2mm solid var(--orange); margin-top: 8mm; }
+.cv-gift { margin-top: 9mm; font-family: var(--hand); font-size: 22pt; color: var(--orange-2); }
+.cv-name { font-size: 25pt; font-weight: 800; color: var(--navy); line-height: 1.2; }
+.cv-tree { margin-top: 2mm; font-size: 12pt; color: var(--navy-2); font-weight: 600; }
+
+/* Lời mở đầu */
+.in-body { flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 0 10mm; }
+.in-body h2 { margin: 0 0 8mm; font-size: 22pt; color: var(--navy); text-align: center; }
+.in-body h2::after { content: ''; display: block; width: 20mm; height: 1mm; background: var(--orange); margin: 3mm auto 0; border-radius: 1mm; }
+.in-body p { font-size: 12.5pt; line-height: 1.8; margin: 0 0 4mm; text-align: justify; }
+.in-greet { font-weight: 700; color: var(--navy); }
+.in-count { color: var(--muted); font-style: italic; }
+.in-sign { margin-top: 8mm; align-self: flex-end; text-align: center; display: grid; }
+.in-sign span { font-size: 11pt; color: var(--muted); }
+.in-sign b { font-family: var(--hand); font-size: 24pt; color: var(--navy); }
+
+/* Trang thống kê */
+.st-body { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
+.st-body h2 { margin: 0 0 8mm; font-size: 20pt; color: var(--navy); }
+.st-grid { display: flex; gap: 6mm; flex-wrap: wrap; justify-content: center; }
+.st-tile { width: 38mm; padding: 5mm 3mm; border-radius: 4mm; background: var(--navy); color: #fff; display: grid; }
+.st-tile b { font-size: 26pt; line-height: 1.1; color: var(--orange); }
+.st-tile span { font-size: 10pt; }
+.st-classes { margin: 8mm 0 0; max-width: 150mm; color: var(--muted); font-size: 10pt; }
+.st-thanks { margin: 14mm 0 4mm; font-family: var(--hand); font-size: 30pt; color: var(--navy); }
+.st-logo { width: 30mm; height: 30mm; object-fit: contain; }
+.st-sign { color: var(--muted); font-size: 10pt; margin: 3mm 0 0; }
+
+@media print {
+  body.book { background: #fff; }
+  .toolbar { display: none !important; }
+  .page { margin: 0; box-shadow: none; }
+  .bk:last-child > .page:last-child { break-after: auto; page-break-after: auto; }
+}
+
+@media screen and (max-width: 820px) {
+  /* Xem trước trên màn nhỏ: thu nhỏ tờ giấy cho vừa */
+  #book { zoom: .45; }
+}

@@ -1,0 +1,8 @@
+{
+  "schoolName": "May Academy",
+  "eventDate": "2026-11-20T07:00:00+07:00",
+  "submissionsCloseAt": "2026-11-19T22:00:00+07:00",
+  "autoApprove": false,
+  "subjects": ["Toán","Ngữ văn","Tiếng Anh","Vật lí","Hoá học","Sinh học","Lịch sử","Địa lí","Tin học","KHTN","GDCD"],
+  "classes": []
+}

@@ -1,0 +1,110 @@
+/* Trình làm thiệp gần toàn màn hình (máy tính ~96vw×94vh, điện thoại toàn màn hình) */
+.ma-sheet-wrap.is-full { align-items: stretch; justify-content: stretch; }
+.ma-sheet-wrap.is-full .ma-sheet {
+  width: 100%; height: 100%; max-height: none; border-radius: 0;
+  padding-top: var(--ma-safe-t, 0px);
+}
+.ma-sheet-wrap.is-full .ma-grab { display: none; }
+.ma-sheet-wrap.is-full .ma-sheet-head { cursor: default; touch-action: auto; padding-top: 10px; padding-bottom: 8px; }
+.ma-sheet-wrap.is-full .ma-sheet-body { overflow: hidden; display: flex; flex-direction: column; padding: 8px 12px 0; }
+.ma-sheet-wrap.is-full .ma-sheet-foot { padding-top: 10px; padding-bottom: calc(10px + var(--ma-safe-b, 0px)); }
+.ma-sheet-wrap.is-full .ma-sheet-body:has(.mk-preview) { overflow-y: auto; }
+@media (min-width: 760px) {
+  .ma-sheet-wrap.is-full { align-items: center; justify-content: center; }
+  .ma-sheet-wrap.is-full .ma-sheet { width: 96vw; height: 94vh; max-height: 94vh; border-radius: 20px; }
+  .ma-sheet-wrap.is-full .ma-sheet-body { padding: 14px 20px 0; }
+}
+
+/* bố cục: điện thoại = thiệp trên, công cụ dưới; máy tính = thiệp trái, công cụ phải */
+.mk { flex: 1; min-height: 0; display: flex; flex-direction: column; gap: 10px; }
+.mk-stage { flex: none; display: flex; justify-content: center; }
+.mk-stage .mk-card { width: min(100%, 520px, calc((100vh - 420px) * .8)); width: min(100%, 520px, calc((100dvh - 420px) * .8)); min-width: 200px; touch-action: none; }
+.mk-tools { flex: 1; min-height: 140px; display: flex; flex-direction: column; min-width: 0; }
+.mk-panel { flex: 1; min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; padding: 10px 2px 14px; }
+@media (min-width: 760px) {
+  .mk { flex-direction: row; gap: 22px; }
+  .mk-stage { align-items: flex-start; }
+  .mk-stage .mk-card { width: min(48vw, calc((94vh - 150px) * .8)); }
+  .mk-tools { flex: 1; }
+}
+
+.mk-card.is-drawing { outline: 3px dashed var(--ma-orange); outline-offset: 3px; }
+.mk-canvas { position: absolute; inset: 0; width: 100%; height: 100%; touch-action: none; cursor: crosshair; }
+
+/* thanh thẻ */
+.mk-tabs { flex: none; display: flex; gap: 4px; padding: 4px; border-radius: 14px; background: #EDF0F6; overflow-x: auto; scrollbar-width: none; }
+.mk-tabs::-webkit-scrollbar { display: none; }
+.mk-tabs button { flex: 1 0 auto; min-width: 64px; display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 7px 8px 6px; border: 0; border-radius: 10px; background: transparent; color: var(--ma-muted); font: 700 12px/1.1 var(--ma-font); cursor: pointer; white-space: nowrap; }
+.mk-tabs button[aria-selected="true"] { background: #fff; color: var(--ma-navy); box-shadow: 0 1px 3px rgba(15, 34, 71, .14); }
+.mk-tabs button[aria-selected="true"] .ma-ic { color: var(--ma-orange-d); }
+
+.mk-sec { margin: 4px 0 14px; }
+.mk-sec h4 { margin: 0 0 8px; font-size: 13px; font-weight: 800; color: var(--ma-navy); }
+.mk-field { margin-top: 0; }
+.mk-ta { min-height: 110px; }
+.mk-two { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.mk-two .ma-seg button { min-height: 38px; }
+
+/* mẫu + khung + nền */
+.mk-tplgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(76px, 1fr)); gap: 8px; }
+.mk-tpl { display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 4px 4px 6px; border-radius: 12px; border: 2px solid var(--ma-line); background: #fff; color: var(--ma-navy); font-size: 11.5px; cursor: pointer; }
+.mk-tpl b { font-weight: 700; line-height: 1.15; text-align: center; }
+.mk-tpl-pic { display: block; width: 100%; aspect-ratio: 4 / 5; border-radius: 8px; overflow: hidden; }
+.mk-tpl-pic svg { width: 100%; height: 100%; display: block; }
+.mk-tpl.is-on, .mk-frame.is-on, .mk-bg.is-on { border-color: var(--ma-orange); box-shadow: 0 0 0 3px rgba(233, 151, 59, .25); }
+.mk-framegrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 8px; }
+.mk-frame { display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 4px; border-radius: 10px; border: 2px solid var(--ma-line); background: #fff; color: var(--ma-navy); cursor: pointer; }
+.mk-frame small { font-size: 11px; line-height: 1.1; text-align: center; }
+.mk-frame-pic { display: block; width: 100%; aspect-ratio: 4 / 5; border-radius: 6px; background: #FBF5E8; overflow: hidden; }
+.mk-frame-pic svg { width: 100%; height: 100%; display: block; color: #C9761E; --accent: #C9761E; }
+.mk-bgrow { display: flex; flex-wrap: wrap; gap: 8px; }
+.mk-bg { display: flex; flex-direction: column; align-items: center; gap: 3px; width: 64px; padding: 4px; border-radius: 10px; border: 2px solid var(--ma-line); background: #fff; color: var(--ma-navy); cursor: pointer; }
+.mk-bg::before { content: ''; display: block; width: 100%; height: 30px; border-radius: 6px; background: var(--c); box-shadow: inset 0 0 0 1px rgba(15, 34, 71, .12); }
+.mk-bg .ma-ic { position: absolute; margin-top: 6px; color: var(--ma-muted); }
+.mk-bg { position: relative; }
+.mk-bg small { font-size: 11px; }
+
+/* chip + màu */
+.mk-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.mk-chips.is-scroll { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 6px; scrollbar-width: thin; }
+.mk-chip { flex: none; padding: 7px 12px; border-radius: 999px; border: 1.5px solid var(--ma-line); background: #fff; color: var(--ma-navy); font: 600 14px/1.2 var(--ma-font); cursor: pointer; white-space: nowrap; }
+.mk-chip.is-on { border-color: var(--ma-orange); background: #FFF7EC; }
+.mk-pen-cauvong { background: linear-gradient(90deg, #FDE2E3, #FFF1D6, #E2F5E9, #E1EEFC); }
+.mk-pen-daquang { background: #FFFBD1; }
+.mk-swatches { display: flex; flex-wrap: wrap; gap: 7px; }
+.mk-sw { position: relative; width: 32px; height: 32px; padding: 0; border-radius: 50%; border: 2px solid rgba(15, 34, 71, .15); background: var(--c); cursor: pointer; display: grid; place-items: center; color: #fff; }
+.mk-sw.is-on { box-shadow: 0 0 0 3px #fff, 0 0 0 5px var(--ma-orange); }
+.mk-sw.is-def { background: #fff; color: var(--ma-navy); font: 800 14px var(--ma-font); }
+.mk-sw.is-custom { background: conic-gradient(#E5484D, #F6C453, #4CAF7A, #4A90E2, #8E5BD0, #E5484D); }
+.mk-sw.is-custom[style] { background: var(--c); }
+.mk-sw.is-custom .ma-ic svg { width: 16px; height: 16px; filter: drop-shadow(0 0 2px rgba(0, 0, 0, .5)); }
+.mk-sw input[type="color"] { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; border: 0; padding: 0; }
+
+/* vẽ */
+.mk-pentools { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.mk-sizes { display: flex; gap: 6px; }
+.mk-pentools .ma-size i { border-radius: 50%; }
+
+/* sticker */
+.mk-stgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(54px, 1fr)); gap: 8px; margin-top: 6px; }
+.mk-stpick { aspect-ratio: 1; padding: 6px; border-radius: 12px; border: 1.5px solid var(--ma-line); background: #fff; cursor: pointer; }
+.mk-stpick svg { width: 100%; height: 100%; display: block; }
+.mk-stpick:active { transform: scale(.94); }
+.mk-seltools { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
+.mk-seltools:empty { display: none; }
+.mk-seltitle { font-size: 13px; font-weight: 800; }
+.mk-btnrow { display: flex; flex-wrap: wrap; gap: 6px; }
+
+/* chữ thêm */
+.mk-addtext { display: flex; gap: 8px; }
+.mk-addtext .ma-input { flex: 1; min-width: 0; }
+.mk-count { margin-top: 4px; font-size: 12px; color: var(--ma-muted); text-align: right; }
+.mac-texts.is-edit .mk-tx { pointer-events: auto; cursor: grab; touch-action: none; }
+.mk-tx { border-radius: 4px; padding: 0 .2em; }
+.mk-tx.is-sel { outline: 2px dashed var(--ma-orange); outline-offset: 2px; }
+.mk-tx .ma-st-del, .mk-tx .ma-st-handle { font-size: 0; }
+.mac-texts.is-edit .is-sel .ma-st-del { display: grid; top: -14px; left: -14px; }
+.mac-texts.is-edit .is-sel .ma-st-handle { display: grid; bottom: -14px; right: -14px; background: var(--ma-orange); color: var(--ma-navy); cursor: nwse-resize; }
+
+/* xem trước */
+.mk-preview { width: min(100%, 520px, calc((100vh - 220px) * .8)); width: min(100%, 520px, calc((100dvh - 220px) * .8)); margin: 4px auto 14px; }

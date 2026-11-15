@@ -1,0 +1,48 @@
+/* Khung thiệp (cả bản thật lẫn dự phòng) */
+.cv { width: 100%; }
+.cv > canvas, .cv > img { display: block; width: 100%; height: auto; border-radius: 12px; }
+.cv > * { max-width: 100%; }
+
+/* Bản dựng dự phòng */
+.cvf {
+  position: relative; overflow: hidden; border-radius: 14px;
+  padding: 16px 18px 14px; min-height: 180px;
+  display: flex; flex-direction: column; gap: 8px;
+  color: #23263A; background: #FFFDF8;
+  border: 1px solid rgba(15, 34, 71, .10);
+  box-shadow: 0 2px 10px rgba(15, 34, 71, .08);
+  -webkit-print-color-adjust: exact; print-color-adjust: exact;
+}
+.cvf::before {
+  content: ''; position: absolute; inset: 7px; border-radius: 10px; pointer-events: none;
+  border: 1.5px dashed rgba(15, 34, 71, .14);
+}
+.cvf-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; position: relative; }
+.cvf-tpl { font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--cvf-acc, #E9973B); }
+.cvf-date { font-size: 11px; font-weight: 800; color: #fff; background: var(--cvf-acc, #E9973B); padding: 1px 8px; border-radius: 999px; }
+.cvf-to { font-size: 13px; font-weight: 600; color: #0F2247; position: relative; }
+.cvf-msg { margin: 0; white-space: pre-wrap; word-break: break-word; font-size: 15px; line-height: 1.55; position: relative; }
+.cvf-art { position: relative; background: rgba(255,255,255,.75); border-radius: 10px; padding: 4px; text-align: center; }
+.cvf-art img { display: block; margin: 0 auto; max-width: 100%; max-height: 300px; object-fit: contain; border-radius: 8px; }
+.cvf-from { margin-top: auto; text-align: right; font-size: 13px; color: #55607A; position: relative; }
+.cvf-sig { font-family: var(--hand, cursive); font-size: 21px; font-weight: 600; color: #0F2247; }
+.cvf-stickers { position: absolute; inset: 0; pointer-events: none; }
+.cvf-st { position: absolute; font-size: 26px; line-height: 1; }
+.cvf-st img { width: 34px; height: 34px; object-fit: contain; }
+
+.cvf-thumb .cvf-msg { font-size: 14px; }
+.cvf-full { padding: 22px 24px 18px; }
+.cvf-full .cvf-msg { font-size: 17px; }
+.cvf-full .cvf-art img { max-height: 46vh; }
+.cvf-print { box-shadow: none; padding: 13px 15px 11px; min-height: 0; }
+.cvf-print .cvf-msg { font-size: 12.5px; line-height: 1.5; }
+.cvf-print .cvf-art img { max-height: 62mm; }
+.cvf-print .cvf-sig { font-size: 18px; }
+
+/* 6 tông màu theo mẫu */
+.cvf-t0 { --cvf-acc: #E9973B; background: linear-gradient(160deg, #FFF8EC, #FDEBD3); }
+.cvf-t1 { --cvf-acc: #0F2247; background: linear-gradient(160deg, #F3F6FC, #E1E8F6); }
+.cvf-t2 { --cvf-acc: #C2553D; background: linear-gradient(160deg, #FFF3EF, #F9DDD3); }
+.cvf-t3 { --cvf-acc: #3F8A5C; background: linear-gradient(160deg, #F2FAF3, #DDF0E2); }
+.cvf-t4 { --cvf-acc: #8E5BB5; background: linear-gradient(160deg, #F8F3FC, #EADFF5); }
+.cvf-t5 { --cvf-acc: #B98A1A; background: linear-gradient(160deg, #FFFBEA, #F7EDC4); }

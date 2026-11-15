@@ -1,0 +1,26 @@
+{
+  "name": "may-academy-tri-an",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "May Academy – Mùa Tri Ân 20/11: web game 3D tri ân thầy cô",
+  "scripts": {
+    "dev": "node server/index.js",
+    "build": "vite build",
+    "start": "cross-env NODE_ENV=production node server/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "compression": "^1.8.2",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "three": "^0.170.0",
+    "ws": "^8.23.0"
+  },
+  "devDependencies": {
+    "vite": "^6.4.6"
+  }
+}

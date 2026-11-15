@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <title>Thử thế giới 3D – May Academy</title>
+  <style>
+    html, body { margin: 0; height: 100%; overflow: hidden; background: #0F2247; font-family: "Be Vietnam Pro", "Segoe UI", Roboto, Arial, sans-serif; }
+    #scene { position: fixed; inset: 0; }
+    #panel { position: fixed; top: 8px; right: 8px; z-index: 10; background: rgba(15,34,71,.86); color: #fff; padding: 8px 10px; border-radius: 12px; font-size: 13px; max-width: 290px; }
+    #panel button { margin: 2px; padding: 5px 8px; border: 0; border-radius: 8px; background: #E9973B; color: #0F2247; font-weight: 700; cursor: pointer; }
+    #panel details summary { cursor: pointer; font-weight: 700; }
+    #zone { position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); z-index: 10; display: none; padding: 12px 20px; border-radius: 30px; border: 0; font-weight: 800; font-size: 16px; background: #E9973B; color: #0F2247; box-shadow: 0 6px 18px rgba(0,0,0,.3); }
+    #load { position: fixed; inset: 0; display: grid; place-items: center; color: #fff; z-index: 20; background: #0F2247; font-size: 18px; }
+    #photo { position: fixed; left: 8px; top: 8px; z-index: 11; width: 180px; border: 3px solid #fff; display: none; }
+    #log { max-height: 90px; overflow: auto; font-size: 11px; opacity: .85; margin-top: 4px; }
+    #uibar { position: fixed; left: 0; right: 0; bottom: 0; height: 230px; background: rgba(255,246,230,.92); z-index: 9; display: none; border-top: 4px solid #E9973B; font: 700 16px sans-serif; color: #0F2247; text-align: center; padding-top: 20px; }
+  </style>
+</head>
+<body>
+  <div id="scene"></div>
+  <div id="load">Đang dựng khuôn viên… <span id="pct">0%</span></div>
+  <button id="zone"></button>
+  <div id="uibar">(bảng UI giả 220px) Chọn môn · Vái · Nhận vía</div>
+  <img id="photo" alt="ảnh kỷ niệm" />
+  <div id="panel">
+    <details open>
+      <summary>Thử thế giới</summary>
+      <div>
+        <button data-fx="bow">Vái</button><button data-fx="incense">Khói hương</button>
+        <button data-fx="crane">Thả hạc</button><button data-fx="card">Thiệp → t01</button>
+        <button data-fx="signature">Ký bảng</button><button data-fx="fireworks">Pháo hoa</button>
+        <button data-fx="confetti">Pháo giấy</button>
+      </div>
+      <div>
+        Ảnh: <button data-photo="wave">Vẫy</button><button data-photo="heart">Tim</button><button data-photo="peace">V</button><button data-photo="bow">Vái</button>
+      </div>
+      <div>
+        Thiệp: <button data-cards="0">0</button><button data-cards="12">12</button><button data-cards="35">35</button><button data-cards="55">55</button>
+        <button id="more">+5 người</button>
+      </div>
+      <div>Miếu: <button id="pray">Xin vía</button><button id="pray-end">Đứng dậy</button></div>
+      <div>Thầy cô: <button data-guide="tree">Chỉ đường cây</button><button data-guide="secret-box">Chỉ đường hòm thư</button><button data-auto="tree">Đi tới cây</button><button data-auto="secret-box">Đi tới hòm thư</button><button data-guide="">Tắt</button></div>
+      <div>Đi tới: <button data-go="gate">Cổng</button><button data-go="garden">Vườn</button><button data-go="shrine">Miếu</button><button data-go="lake">Hồ</button><button data-go="stage">Sân khấu</button></div>
+      <div id="log"></div>
+    </details>
+  </div>
+  <script type="module" src="/src/world/test-main.js"></script>
+</body>
+</html>

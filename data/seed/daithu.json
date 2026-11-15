@@ -1,0 +1,1910 @@
+{
+ "d01": [
+  {
+   "i": 0,
+   "message": "Chúc ông luôn mạnh khoẻ, vui vẻ và bình an.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "tao",
+     "x": 0.14,
+     "y": 0.87,
+     "s": 0.77,
+     "r": -19
+    },
+    {
+     "id": "bong-bay",
+     "x": 0.87,
+     "y": 0.88,
+     "s": 0.79,
+     "r": -15
+    },
+    {
+     "id": "bong-bay",
+     "x": 0.86,
+     "y": 0.08,
+     "s": 0.7,
+     "r": -5
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "message": "Chúng con kính chúc ông sống lâu trăm tuổi, lúc nào cũng tươi cười.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "sao",
+     "x": 0.86,
+     "y": 0.87,
+     "s": 0.81,
+     "r": -16
+    },
+    {
+     "id": "sao",
+     "x": 0.84,
+     "y": 0.08,
+     "s": 0.64,
+     "r": 16
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "message": "Mỗi lần nghĩ tới ông, chúng con thấy ấm lòng. Con cảm ơn ông nhiều lắm!",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "tim",
+     "x": 0.85,
+     "y": 0.87,
+     "s": 0.67,
+     "r": 0
+    },
+    {
+     "id": "hoa",
+     "x": 0.86,
+     "y": 0.11,
+     "s": 0.8,
+     "r": 5
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "message": "Chúc ông một ngày 20/11 thật nhiều niềm vui và hoa tươi.",
+   "template": "la-thu",
+   "stickers": [
+    {
+     "id": "sao",
+     "x": 0.84,
+     "y": 0.89,
+     "s": 0.64,
+     "r": -20
+    },
+    {
+     "id": "la",
+     "x": 0.85,
+     "y": 0.1,
+     "s": 0.66,
+     "r": 10
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "message": "Ông ơi, chúng con thương ông nhiều! Chúc ông luôn khoẻ mạnh.",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "tao",
+     "x": 0.84,
+     "y": 0.09,
+     "s": 0.62,
+     "r": -8
+    },
+    {
+     "id": "hac",
+     "x": 0.15,
+     "y": 0.87,
+     "s": 0.63,
+     "r": -10
+    },
+    {
+     "id": "no",
+     "x": 0.88,
+     "y": 0.89,
+     "s": 0.63,
+     "r": 5
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "message": "Kính chúc ông phúc như Đông Hải, thọ tỉ Nam Sơn.",
+   "template": "la-thu",
+   "stickers": [
+    {
+     "id": "but",
+     "x": 0.87,
+     "y": 0.88,
+     "s": 0.81,
+     "r": 0
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "message": "Chúc ông ăn ngon, ngủ ngon, đi đâu cũng có người thương.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "hac",
+     "x": 0.14,
+     "y": 0.89,
+     "s": 0.79,
+     "r": 15
+    },
+    {
+     "id": "la",
+     "x": 0.84,
+     "y": 0.89,
+     "s": 0.67,
+     "r": 9
+    },
+    {
+     "id": "sach",
+     "x": 0.88,
+     "y": 0.07,
+     "s": 0.75,
+     "r": -16
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "message": "Chúng con hứa sẽ chăm ngoan, học giỏi để ông vui lòng.",
+   "template": "sao",
+   "stickers": [
+    {
+     "id": "mat-troi",
+     "x": 0.86,
+     "y": 0.87,
+     "s": 0.76,
+     "r": 18
+    }
+   ]
+  },
+  {
+   "i": 8,
+   "message": "Con cảm ơn ông vì những điều tốt đẹp ông đã dành cho chúng con.",
+   "template": "sao",
+   "stickers": [
+    {
+     "id": "tim",
+     "x": 0.86,
+     "y": 0.88,
+     "s": 0.74,
+     "r": -1
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "message": "Chúc ông lúc nào cũng trẻ trung, minh mẫn và yêu đời.",
+   "template": "la-thu",
+   "stickers": [
+    {
+     "id": "tim",
+     "x": 0.85,
+     "y": 0.87,
+     "s": 0.77,
+     "r": -18
+    }
+   ]
+  },
+  {
+   "i": 10,
+   "message": "Gửi ông một bông hoa thật to từ tất cả chúng con!",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "tim",
+     "x": 0.84,
+     "y": 0.88,
+     "s": 0.62,
+     "r": -8
+    }
+   ]
+  },
+  {
+   "i": 11,
+   "message": "Chúc ông mỗi sáng thức dậy đều thấy nắng đẹp và tin vui.",
+   "template": "la-thu",
+   "stickers": [
+    {
+     "id": "hoa",
+     "x": 0.87,
+     "y": 0.88,
+     "s": 0.77,
+     "r": 0
+    },
+    {
+     "id": "sao",
+     "x": 0.85,
+     "y": 0.09,
+     "s": 0.81,
+     "r": 3
+    }
+   ]
+  },
+  {
+   "i": 12,
+   "message": "Con mong ông luôn khoẻ để chúng con được gặp ông thật nhiều lần nữa.",
+   "template": "sao",
+   "stickers": [
+    {
+     "id": "mat-troi",
+     "x": 0.87,
+     "y": 0.1,
+     "s": 0.79,
+     "r": -11
+    }
+   ]
+  },
+  {
+   "i": 13,
+   "message": "Một lời cảm ơn nhỏ nhưng chân thành nhất gửi tới ông.",
+   "template": "cuc",
+   "stickers": [
+    {
+     "id": "but",
+     "x": 0.12,
+     "y": 0.87,
+     "s": 0.84,
+     "r": 3
+    }
+   ]
+  },
+  {
+   "i": 14,
+   "message": "Chúc ông sức khoẻ dồi dào, tinh thần thật thoải mái.",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "no",
+     "x": 0.13,
+     "y": 0.88,
+     "s": 0.69,
+     "r": -11
+    },
+    {
+     "id": "sach",
+     "x": 0.87,
+     "y": 0.86,
+     "s": 0.76,
+     "r": 15
+    },
+    {
+     "id": "hac",
+     "x": 0.88,
+     "y": 0.09,
+     "s": 0.61,
+     "r": 9
+    }
+   ]
+  },
+  {
+   "i": 15,
+   "message": "Chúng con kính chúc ông an khang, thịnh vượng, vạn sự như ý.",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "sao",
+     "x": 0.14,
+     "y": 0.89,
+     "s": 0.84,
+     "r": -9
+    },
+    {
+     "id": "sao",
+     "x": 0.88,
+     "y": 0.87,
+     "s": 0.8,
+     "r": 14
+    },
+    {
+     "id": "but",
+     "x": 0.86,
+     "y": 0.09,
+     "s": 0.67,
+     "r": 15
+    }
+   ]
+  },
+  {
+   "i": 16,
+   "message": "Chúc ông luôn được bao quanh bởi tiếng cười và tình thương.",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "hoa",
+     "x": 0.85,
+     "y": 0.89,
+     "s": 0.71,
+     "r": -17
+    },
+    {
+     "id": "bong-bay",
+     "x": 0.87,
+     "y": 0.07,
+     "s": 0.65,
+     "r": 7
+    },
+    {
+     "id": "mat-troi",
+     "x": 0.13,
+     "y": 0.87,
+     "s": 0.82,
+     "r": -17
+    }
+   ]
+  },
+  {
+   "i": 17,
+   "message": "Ông là cây đại thụ che mát cho chúng con. Con cảm ơn ông!",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "no",
+     "x": 0.88,
+     "y": 0.87,
+     "s": 0.74,
+     "r": 19
+    },
+    {
+     "id": "sao",
+     "x": 0.87,
+     "y": 0.11,
+     "s": 0.63,
+     "r": 4
+    }
+   ]
+  },
+  {
+   "i": 18,
+   "message": "Chúc ông trời trong nắng ấm, lòng luôn thảnh thơi.",
+   "template": "cuc",
+   "stickers": [
+    {
+     "id": "la",
+     "x": 0.84,
+     "y": 0.89,
+     "s": 0.73,
+     "r": -5
+    },
+    {
+     "id": "tao",
+     "x": 0.88,
+     "y": 0.09,
+     "s": 0.77,
+     "r": 13
+    },
+    {
+     "id": "bong-bay",
+     "x": 0.12,
+     "y": 0.88,
+     "s": 0.65,
+     "r": -8
+    }
+   ]
+  },
+  {
+   "i": 19,
+   "message": "Mong ông luôn hạnh phúc như những ngày đẹp nhất.",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "tim",
+     "x": 0.88,
+     "y": 0.88,
+     "s": 0.64,
+     "r": 4
+    },
+    {
+     "id": "but",
+     "x": 0.86,
+     "y": 0.11,
+     "s": 0.63,
+     "r": 13
+    },
+    {
+     "id": "la",
+     "x": 0.14,
+     "y": 0.9,
+     "s": 0.65,
+     "r": 8
+    }
+   ]
+  },
+  {
+   "i": 20,
+   "message": "Chúc ông một mùa tri ân thật ý nghĩa và đong đầy yêu thương.",
+   "template": "cuc",
+   "stickers": [
+    {
+     "id": "sach",
+     "x": 0.13,
+     "y": 0.87,
+     "s": 0.83,
+     "r": 20
+    },
+    {
+     "id": "mat-troi",
+     "x": 0.86,
+     "y": 0.88,
+     "s": 0.76,
+     "r": 9
+    },
+    {
+     "id": "huy-hieu",
+     "x": 0.87,
+     "y": 0.07,
+     "s": 0.82,
+     "r": -15
+    }
+   ]
+  },
+  {
+   "i": 21,
+   "message": "Chúng con gửi ông thật nhiều cái ôm ấm áp!",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "tim",
+     "x": 0.14,
+     "y": 0.87,
+     "s": 0.71,
+     "r": 12
+    }
+   ]
+  },
+  {
+   "i": 22,
+   "message": "Chúc ông khoẻ như cây tùng, vững như cây bách.",
+   "template": "la-thu",
+   "stickers": [
+    {
+     "id": "sao",
+     "x": 0.84,
+     "y": 0.88,
+     "s": 0.68,
+     "r": 17
+    }
+   ]
+  },
+  {
+   "i": 23,
+   "message": "Kính chúc ông mạnh khoẻ, sống vui, sống khoẻ mỗi ngày.",
+   "template": "sao",
+   "stickers": [
+    {
+     "id": "huy-hieu",
+     "x": 0.15,
+     "y": 0.88,
+     "s": 0.67,
+     "r": 7
+    },
+    {
+     "id": "hoa",
+     "x": 0.86,
+     "y": 0.88,
+     "s": 0.65,
+     "r": 12
+    },
+    {
+     "id": "la",
+     "x": 0.85,
+     "y": 0.08,
+     "s": 0.7,
+     "r": -17
+    }
+   ]
+  },
+  {
+   "i": 24,
+   "message": "Con chúc ông lúc nào cũng có trà ngon, sách hay và người thương bên cạnh.",
+   "template": "la-thu",
+   "stickers": [
+    {
+     "id": "but",
+     "x": 0.13,
+     "y": 0.88,
+     "s": 0.76,
+     "r": 4
+    },
+    {
+     "id": "mat-troi",
+     "x": 0.85,
+     "y": 0.88,
+     "s": 0.64,
+     "r": 11
+    },
+    {
+     "id": "tao",
+     "x": 0.85,
+     "y": 0.08,
+     "s": 0.78,
+     "r": 10
+    }
+   ]
+  },
+  {
+   "i": 25,
+   "message": "Chúc ông luôn bình yên như buổi sáng mùa thu.",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "la",
+     "x": 0.86,
+     "y": 0.88,
+     "s": 0.79,
+     "r": 3
+    },
+    {
+     "id": "tao",
+     "x": 0.84,
+     "y": 0.09,
+     "s": 0.8,
+     "r": -7
+    }
+   ]
+  },
+  {
+   "i": 26,
+   "message": "Chúng con biết ơn ông nhiều lắm. Chúc ông thật nhiều sức khoẻ!",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "bong-bay",
+     "x": 0.86,
+     "y": 0.9,
+     "s": 0.79,
+     "r": 5
+    },
+    {
+     "id": "sao",
+     "x": 0.86,
+     "y": 0.09,
+     "s": 0.73,
+     "r": -7
+    }
+   ]
+  },
+  {
+   "i": 27,
+   "message": "Một bông hồng, một lời chúc, một tấm lòng biết ơn gửi tới ông.",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "la",
+     "x": 0.88,
+     "y": 0.9,
+     "s": 0.8,
+     "r": 3
+    },
+    {
+     "id": "no",
+     "x": 0.86,
+     "y": 0.08,
+     "s": 0.61,
+     "r": -17
+    }
+   ]
+  },
+  {
+   "i": 28,
+   "message": "Chúc ông cười thật nhiều, vì nụ cười của ông làm chúng con vui.",
+   "template": "cuc",
+   "stickers": [
+    {
+     "id": "la",
+     "x": 0.87,
+     "y": 0.89,
+     "s": 0.63,
+     "r": 14
+    },
+    {
+     "id": "mat-troi",
+     "x": 0.87,
+     "y": 0.1,
+     "s": 0.65,
+     "r": 2
+    },
+    {
+     "id": "tim",
+     "x": 0.15,
+     "y": 0.88,
+     "s": 0.75,
+     "r": 11
+    }
+   ]
+  },
+  {
+   "i": 29,
+   "message": "Kính chúc ông tuổi mới thêm sức, ngày mới thêm vui.",
+   "template": "cuc",
+   "stickers": [
+    {
+     "id": "tim",
+     "x": 0.87,
+     "y": 0.88,
+     "s": 0.71,
+     "r": -10
+    },
+    {
+     "id": "hoa",
+     "x": 0.87,
+     "y": 0.1,
+     "s": 0.7,
+     "r": -16
+    }
+   ]
+  },
+  {
+   "i": 30,
+   "message": "Chúc ông mãi là chỗ dựa vững chãi, mát lành như cây đại thụ này.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "huy-hieu",
+     "x": 0.86,
+     "y": 0.89,
+     "s": 0.85,
+     "r": -10
+    },
+    {
+     "id": "but",
+     "x": 0.85,
+     "y": 0.08,
+     "s": 0.68,
+     "r": 0
+    }
+   ]
+  },
+  {
+   "i": 31,
+   "message": "Con chúc ông mọi điều tốt đẹp nhất trên đời.",
+   "template": "la-thu",
+   "stickers": [
+    {
+     "id": "mat-troi",
+     "x": 0.87,
+     "y": 0.86,
+     "s": 0.8,
+     "r": -17
+    },
+    {
+     "id": "hoa",
+     "x": 0.84,
+     "y": 0.11,
+     "s": 0.72,
+     "r": 15
+    }
+   ]
+  },
+  {
+   "i": 32,
+   "message": "Chúng con kính chúc ông và gia đình luôn mạnh khoẻ, hạnh phúc.",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "bong-bay",
+     "x": 0.16,
+     "y": 0.89,
+     "s": 0.74,
+     "r": 5
+    }
+   ]
+  },
+  {
+   "i": 33,
+   "message": "Chúc ông luôn có những ngày thật nhẹ nhàng và bình an.",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "tim",
+     "x": 0.86,
+     "y": 0.11,
+     "s": 0.84,
+     "r": 19
+    },
+    {
+     "id": "tim",
+     "x": 0.13,
+     "y": 0.89,
+     "s": 0.74,
+     "r": 6
+    }
+   ]
+  },
+  {
+   "i": 34,
+   "message": "Cảm ơn ông đã là một phần thật đẹp của May Academy.",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "but",
+     "x": 0.15,
+     "y": 0.89,
+     "s": 0.67,
+     "r": -18
+    }
+   ]
+  },
+  {
+   "i": 35,
+   "message": "Chúc ông một năm mới (sớm sớm) thật nhiều may mắn!",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "tim",
+     "x": 0.86,
+     "y": 0.1,
+     "s": 0.65,
+     "r": -16
+    },
+    {
+     "id": "huy-hieu",
+     "x": 0.15,
+     "y": 0.89,
+     "s": 0.65,
+     "r": 8
+    }
+   ]
+  },
+  {
+   "i": 36,
+   "message": "Con gửi ông lời chúc ngọt như kẹo, ấm như nắng.",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "huy-hieu",
+     "x": 0.15,
+     "y": 0.87,
+     "s": 0.71,
+     "r": 0
+    },
+    {
+     "id": "hoa",
+     "x": 0.87,
+     "y": 0.87,
+     "s": 0.73,
+     "r": -17
+    },
+    {
+     "id": "tim",
+     "x": 0.84,
+     "y": 0.07,
+     "s": 0.76,
+     "r": 8
+    }
+   ]
+  },
+  {
+   "i": 37,
+   "message": "Kính chúc ông luôn vui khoẻ để còn xem chúng con lớn lên.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "hac",
+     "x": 0.13,
+     "y": 0.88,
+     "s": 0.63,
+     "r": -6
+    },
+    {
+     "id": "sach",
+     "x": 0.87,
+     "y": 0.88,
+     "s": 0.73,
+     "r": -18
+    },
+    {
+     "id": "tao",
+     "x": 0.85,
+     "y": 0.07,
+     "s": 0.64,
+     "r": 5
+    }
+   ]
+  },
+  {
+   "i": 38,
+   "message": "Chúc ông đi đâu cũng gặp điều may, về nhà gặp niềm vui.",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "tao",
+     "x": 0.87,
+     "y": 0.88,
+     "s": 0.66,
+     "r": -18
+    }
+   ]
+  },
+  {
+   "i": 39,
+   "message": "Chúc ông trăm năm vẫn tươi, nghìn năm vẫn xanh như cây cổ thụ.",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "tim",
+     "x": 0.87,
+     "y": 0.07,
+     "s": 0.84,
+     "r": -4
+    },
+    {
+     "id": "no",
+     "x": 0.15,
+     "y": 0.89,
+     "s": 0.79,
+     "r": 19
+    }
+   ]
+  },
+  {
+   "i": 40,
+   "message": "Chúng con yêu ông! Chúc ông 20/11 thật vui.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "hoa",
+     "x": 0.87,
+     "y": 0.88,
+     "s": 0.73,
+     "r": 5
+    }
+   ]
+  },
+  {
+   "i": 41,
+   "message": "Chúc ông mỗi ngày đều là một ngày đáng nhớ.",
+   "template": "sao",
+   "stickers": [
+    {
+     "id": "huy-hieu",
+     "x": 0.86,
+     "y": 0.9,
+     "s": 0.73,
+     "r": 0
+    }
+   ]
+  },
+  {
+   "i": 42,
+   "message": "Con chúc ông khoẻ mạnh, an vui, mọi việc đều thuận lợi.",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "huy-hieu",
+     "x": 0.13,
+     "y": 0.88,
+     "s": 0.72,
+     "r": 17
+    },
+    {
+     "id": "huy-hieu",
+     "x": 0.87,
+     "y": 0.9,
+     "s": 0.85,
+     "r": 2
+    }
+   ]
+  },
+  {
+   "i": 43,
+   "message": "Mong những lời chúc nhỏ trên cây này mang tới ông thật nhiều niềm vui.",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "sach",
+     "x": 0.88,
+     "y": 0.89,
+     "s": 0.73,
+     "r": 15
+    }
+   ]
+  },
+  {
+   "i": 44,
+   "message": "Kính chúc ông một đời an nhiên, hạnh phúc trọn vẹn.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "no",
+     "x": 0.85,
+     "y": 0.07,
+     "s": 0.8,
+     "r": -1
+    }
+   ]
+  }
+ ],
+ "d02": [
+  {
+   "i": 0,
+   "message": "Chúc bà luôn mạnh khoẻ, vui vẻ và bình an.",
+   "template": "la-thu",
+   "stickers": [
+    {
+     "id": "tim",
+     "x": 0.14,
+     "y": 0.88,
+     "s": 0.62,
+     "r": -15
+    }
+   ]
+  },
+  {
+   "i": 1,
+   "message": "Chúng con kính chúc bà sống lâu trăm tuổi, lúc nào cũng tươi cười.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "sach",
+     "x": 0.88,
+     "y": 0.86,
+     "s": 0.76,
+     "r": -18
+    },
+    {
+     "id": "mat-troi",
+     "x": 0.87,
+     "y": 0.07,
+     "s": 0.67,
+     "r": -2
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "message": "Mỗi lần nghĩ tới bà, chúng con thấy ấm lòng. Con cảm ơn bà nhiều lắm!",
+   "template": "sao",
+   "stickers": [
+    {
+     "id": "hac",
+     "x": 0.13,
+     "y": 0.88,
+     "s": 0.7,
+     "r": 13
+    },
+    {
+     "id": "sao",
+     "x": 0.86,
+     "y": 0.87,
+     "s": 0.72,
+     "r": 9
+    },
+    {
+     "id": "mat-troi",
+     "x": 0.87,
+     "y": 0.07,
+     "s": 0.75,
+     "r": 12
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "message": "Chúc bà một ngày 20/11 thật nhiều niềm vui và hoa tươi.",
+   "template": "cuc",
+   "stickers": [
+    {
+     "id": "bong-bay",
+     "x": 0.14,
+     "y": 0.89,
+     "s": 0.76,
+     "r": -11
+    },
+    {
+     "id": "mat-troi",
+     "x": 0.86,
+     "y": 0.87,
+     "s": 0.81,
+     "r": 13
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "message": "Bà ơi, chúng con thương bà nhiều! Chúc bà luôn khoẻ mạnh.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "tim",
+     "x": 0.88,
+     "y": 0.89,
+     "s": 0.7,
+     "r": 4
+    },
+    {
+     "id": "bong-bay",
+     "x": 0.86,
+     "y": 0.09,
+     "s": 0.63,
+     "r": -13
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "message": "Kính chúc bà phúc như Đông Hải, thọ tỉ Nam Sơn.",
+   "template": "sao",
+   "stickers": [
+    {
+     "id": "mat-troi",
+     "x": 0.16,
+     "y": 0.89,
+     "s": 0.71,
+     "r": -3
+    },
+    {
+     "id": "but",
+     "x": 0.86,
+     "y": 0.88,
+     "s": 0.85,
+     "r": 13
+    },
+    {
+     "id": "huy-hieu",
+     "x": 0.84,
+     "y": 0.11,
+     "s": 0.63,
+     "r": -3
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "message": "Chúc bà ăn ngon, ngủ ngon, đi đâu cũng có người thương.",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "hac",
+     "x": 0.86,
+     "y": 0.07,
+     "s": 0.7,
+     "r": -2
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "message": "Chúng con hứa sẽ chăm ngoan, học giỏi để bà vui lòng.",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "hoa",
+     "x": 0.12,
+     "y": 0.86,
+     "s": 0.79,
+     "r": 4
+    },
+    {
+     "id": "bong-bay",
+     "x": 0.86,
+     "y": 0.86,
+     "s": 0.62,
+     "r": -6
+    }
+   ]
+  },
+  {
+   "i": 8,
+   "message": "Con cảm ơn bà vì những điều tốt đẹp bà đã dành cho chúng con.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "huy-hieu",
+     "x": 0.84,
+     "y": 0.86,
+     "s": 0.84,
+     "r": -8
+    },
+    {
+     "id": "no",
+     "x": 0.86,
+     "y": 0.1,
+     "s": 0.65,
+     "r": 15
+    },
+    {
+     "id": "tim",
+     "x": 0.15,
+     "y": 0.89,
+     "s": 0.66,
+     "r": 5
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "message": "Chúc bà lúc nào cũng trẻ trung, minh mẫn và yêu đời.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "bong-bay",
+     "x": 0.86,
+     "y": 0.1,
+     "s": 0.79,
+     "r": 8
+    },
+    {
+     "id": "but",
+     "x": 0.12,
+     "y": 0.89,
+     "s": 0.72,
+     "r": -3
+    },
+    {
+     "id": "but",
+     "x": 0.87,
+     "y": 0.88,
+     "s": 0.79,
+     "r": -8
+    }
+   ]
+  },
+  {
+   "i": 10,
+   "message": "Gửi bà một bông hoa thật to từ tất cả chúng con!",
+   "template": "la-thu",
+   "stickers": [
+    {
+     "id": "no",
+     "x": 0.85,
+     "y": 0.87,
+     "s": 0.77,
+     "r": 6
+    },
+    {
+     "id": "huy-hieu",
+     "x": 0.86,
+     "y": 0.11,
+     "s": 0.65,
+     "r": -17
+    }
+   ]
+  },
+  {
+   "i": 11,
+   "message": "Chúc bà mỗi sáng thức dậy đều thấy nắng đẹp và tin vui.",
+   "template": "sao",
+   "stickers": [
+    {
+     "id": "la",
+     "x": 0.86,
+     "y": 0.09,
+     "s": 0.82,
+     "r": 18
+    },
+    {
+     "id": "no",
+     "x": 0.14,
+     "y": 0.89,
+     "s": 0.64,
+     "r": 2
+    }
+   ]
+  },
+  {
+   "i": 12,
+   "message": "Con mong bà luôn khoẻ để chúng con được gặp bà thật nhiều lần nữa.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "but",
+     "x": 0.85,
+     "y": 0.87,
+     "s": 0.68,
+     "r": -7
+    }
+   ]
+  },
+  {
+   "i": 13,
+   "message": "Một lời cảm ơn nhỏ nhưng chân thành nhất gửi tới bà.",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "sao",
+     "x": 0.84,
+     "y": 0.08,
+     "s": 0.75,
+     "r": -7
+    },
+    {
+     "id": "hoa",
+     "x": 0.13,
+     "y": 0.87,
+     "s": 0.83,
+     "r": 20
+    },
+    {
+     "id": "mat-troi",
+     "x": 0.87,
+     "y": 0.89,
+     "s": 0.83,
+     "r": -8
+    }
+   ]
+  },
+  {
+   "i": 14,
+   "message": "Chúc bà sức khoẻ dồi dào, tinh thần thật thoải mái.",
+   "template": "cuc",
+   "stickers": [
+    {
+     "id": "hac",
+     "x": 0.87,
+     "y": 0.1,
+     "s": 0.7,
+     "r": 5
+    }
+   ]
+  },
+  {
+   "i": 15,
+   "message": "Chúng con kính chúc bà an khang, thịnh vượng, vạn sự như ý.",
+   "template": "sao",
+   "stickers": [
+    {
+     "id": "mat-troi",
+     "x": 0.15,
+     "y": 0.88,
+     "s": 0.71,
+     "r": -5
+    },
+    {
+     "id": "hoa",
+     "x": 0.87,
+     "y": 0.9,
+     "s": 0.75,
+     "r": -17
+    },
+    {
+     "id": "la",
+     "x": 0.84,
+     "y": 0.1,
+     "s": 0.83,
+     "r": -11
+    }
+   ]
+  },
+  {
+   "i": 16,
+   "message": "Chúc bà luôn được bao quanh bởi tiếng cười và tình thương.",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "but",
+     "x": 0.16,
+     "y": 0.86,
+     "s": 0.77,
+     "r": 7
+    },
+    {
+     "id": "hac",
+     "x": 0.88,
+     "y": 0.87,
+     "s": 0.74,
+     "r": -20
+    },
+    {
+     "id": "bong-bay",
+     "x": 0.87,
+     "y": 0.09,
+     "s": 0.74,
+     "r": 6
+    }
+   ]
+  },
+  {
+   "i": 17,
+   "message": "Bà là cây đại thụ che mát cho chúng con. Con cảm ơn bà!",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "la",
+     "x": 0.14,
+     "y": 0.9,
+     "s": 0.77,
+     "r": 0
+    },
+    {
+     "id": "tim",
+     "x": 0.85,
+     "y": 0.88,
+     "s": 0.78,
+     "r": 18
+    },
+    {
+     "id": "hoa",
+     "x": 0.88,
+     "y": 0.09,
+     "s": 0.7,
+     "r": 17
+    }
+   ]
+  },
+  {
+   "i": 18,
+   "message": "Chúc bà trời trong nắng ấm, lòng luôn thảnh thơi.",
+   "template": "la-thu",
+   "stickers": [
+    {
+     "id": "mat-troi",
+     "x": 0.15,
+     "y": 0.89,
+     "s": 0.66,
+     "r": 20
+    },
+    {
+     "id": "bong-bay",
+     "x": 0.87,
+     "y": 0.89,
+     "s": 0.62,
+     "r": 2
+    }
+   ]
+  },
+  {
+   "i": 19,
+   "message": "Mong bà luôn hạnh phúc như những ngày đẹp nhất.",
+   "template": "sao",
+   "stickers": [
+    {
+     "id": "la",
+     "x": 0.88,
+     "y": 0.11,
+     "s": 0.82,
+     "r": 18
+    },
+    {
+     "id": "la",
+     "x": 0.12,
+     "y": 0.87,
+     "s": 0.77,
+     "r": -7
+    }
+   ]
+  },
+  {
+   "i": 20,
+   "message": "Chúc bà một mùa tri ân thật ý nghĩa và đong đầy yêu thương.",
+   "template": "sao",
+   "stickers": [
+    {
+     "id": "tao",
+     "x": 0.15,
+     "y": 0.86,
+     "s": 0.74,
+     "r": -9
+    },
+    {
+     "id": "huy-hieu",
+     "x": 0.85,
+     "y": 0.88,
+     "s": 0.77,
+     "r": -8
+    }
+   ]
+  },
+  {
+   "i": 21,
+   "message": "Chúng con gửi bà thật nhiều cái ôm ấm áp!",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "no",
+     "x": 0.85,
+     "y": 0.88,
+     "s": 0.71,
+     "r": -13
+    }
+   ]
+  },
+  {
+   "i": 22,
+   "message": "Chúc bà khoẻ như cây tùng, vững như cây bách.",
+   "template": "la-thu",
+   "stickers": [
+    {
+     "id": "sao",
+     "x": 0.84,
+     "y": 0.86,
+     "s": 0.68,
+     "r": 14
+    }
+   ]
+  },
+  {
+   "i": 23,
+   "message": "Kính chúc bà mạnh khoẻ, sống vui, sống khoẻ mỗi ngày.",
+   "template": "sao",
+   "stickers": [
+    {
+     "id": "hoa",
+     "x": 0.86,
+     "y": 0.07,
+     "s": 0.75,
+     "r": -8
+    }
+   ]
+  },
+  {
+   "i": 24,
+   "message": "Con chúc bà lúc nào cũng có trà ngon, sách hay và người thương bên cạnh.",
+   "template": "cuc",
+   "stickers": [
+    {
+     "id": "no",
+     "x": 0.14,
+     "y": 0.89,
+     "s": 0.77,
+     "r": -18
+    },
+    {
+     "id": "hoa",
+     "x": 0.86,
+     "y": 0.87,
+     "s": 0.68,
+     "r": -19
+    },
+    {
+     "id": "hac",
+     "x": 0.88,
+     "y": 0.11,
+     "s": 0.79,
+     "r": 0
+    }
+   ]
+  },
+  {
+   "i": 25,
+   "message": "Chúc bà luôn bình yên như buổi sáng mùa thu.",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "huy-hieu",
+     "x": 0.85,
+     "y": 0.88,
+     "s": 0.84,
+     "r": 11
+    },
+    {
+     "id": "sao",
+     "x": 0.84,
+     "y": 0.08,
+     "s": 0.63,
+     "r": 2
+    }
+   ]
+  },
+  {
+   "i": 26,
+   "message": "Chúng con biết ơn bà nhiều lắm. Chúc bà thật nhiều sức khoẻ!",
+   "template": "la-thu",
+   "stickers": [
+    {
+     "id": "no",
+     "x": 0.87,
+     "y": 0.08,
+     "s": 0.71,
+     "r": 1
+    },
+    {
+     "id": "hac",
+     "x": 0.13,
+     "y": 0.87,
+     "s": 0.65,
+     "r": 18
+    },
+    {
+     "id": "hoa",
+     "x": 0.85,
+     "y": 0.9,
+     "s": 0.78,
+     "r": 18
+    }
+   ]
+  },
+  {
+   "i": 27,
+   "message": "Một bông hồng, một lời chúc, một tấm lòng biết ơn gửi tới bà.",
+   "template": "la-thu",
+   "stickers": [
+    {
+     "id": "mat-troi",
+     "x": 0.12,
+     "y": 0.86,
+     "s": 0.63,
+     "r": 18
+    },
+    {
+     "id": "sao",
+     "x": 0.86,
+     "y": 0.87,
+     "s": 0.73,
+     "r": 1
+    }
+   ]
+  },
+  {
+   "i": 28,
+   "message": "Chúc bà cười thật nhiều, vì nụ cười của bà làm chúng con vui.",
+   "template": "sao",
+   "stickers": [
+    {
+     "id": "huy-hieu",
+     "x": 0.87,
+     "y": 0.88,
+     "s": 0.6,
+     "r": -2
+    },
+    {
+     "id": "mat-troi",
+     "x": 0.88,
+     "y": 0.08,
+     "s": 0.74,
+     "r": -5
+    }
+   ]
+  },
+  {
+   "i": 29,
+   "message": "Kính chúc bà tuổi mới thêm sức, ngày mới thêm vui.",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "mat-troi",
+     "x": 0.85,
+     "y": 0.89,
+     "s": 0.63,
+     "r": -13
+    },
+    {
+     "id": "bong-bay",
+     "x": 0.84,
+     "y": 0.09,
+     "s": 0.6,
+     "r": -14
+    }
+   ]
+  },
+  {
+   "i": 30,
+   "message": "Chúc bà mãi là chỗ dựa vững chãi, mát lành như cây đại thụ này.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "sach",
+     "x": 0.85,
+     "y": 0.09,
+     "s": 0.71,
+     "r": -18
+    },
+    {
+     "id": "huy-hieu",
+     "x": 0.14,
+     "y": 0.89,
+     "s": 0.7,
+     "r": -1
+    },
+    {
+     "id": "la",
+     "x": 0.87,
+     "y": 0.9,
+     "s": 0.76,
+     "r": 10
+    }
+   ]
+  },
+  {
+   "i": 31,
+   "message": "Con chúc bà mọi điều tốt đẹp nhất trên đời.",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "sach",
+     "x": 0.14,
+     "y": 0.87,
+     "s": 0.74,
+     "r": -13
+    },
+    {
+     "id": "sach",
+     "x": 0.85,
+     "y": 0.88,
+     "s": 0.63,
+     "r": -7
+    }
+   ]
+  },
+  {
+   "i": 32,
+   "message": "Chúng con kính chúc bà và gia đình luôn mạnh khoẻ, hạnh phúc.",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "sao",
+     "x": 0.88,
+     "y": 0.09,
+     "s": 0.82,
+     "r": 6
+    },
+    {
+     "id": "hac",
+     "x": 0.16,
+     "y": 0.89,
+     "s": 0.62,
+     "r": -4
+    }
+   ]
+  },
+  {
+   "i": 33,
+   "message": "Chúc bà luôn có những ngày thật nhẹ nhàng và bình an.",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "sao",
+     "x": 0.87,
+     "y": 0.09,
+     "s": 0.82,
+     "r": -2
+    }
+   ]
+  },
+  {
+   "i": 34,
+   "message": "Cảm ơn bà đã là một phần thật đẹp của May Academy.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "tim",
+     "x": 0.87,
+     "y": 0.1,
+     "s": 0.6,
+     "r": -14
+    }
+   ]
+  },
+  {
+   "i": 35,
+   "message": "Chúc bà một năm mới (sớm sớm) thật nhiều may mắn!",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "hac",
+     "x": 0.85,
+     "y": 0.09,
+     "s": 0.7,
+     "r": -11
+    },
+    {
+     "id": "tao",
+     "x": 0.15,
+     "y": 0.87,
+     "s": 0.65,
+     "r": -17
+    },
+    {
+     "id": "huy-hieu",
+     "x": 0.85,
+     "y": 0.88,
+     "s": 0.72,
+     "r": 2
+    }
+   ]
+  },
+  {
+   "i": 36,
+   "message": "Con gửi bà lời chúc ngọt như kẹo, ấm như nắng.",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "tim",
+     "x": 0.86,
+     "y": 0.87,
+     "s": 0.83,
+     "r": 2
+    },
+    {
+     "id": "hac",
+     "x": 0.84,
+     "y": 0.1,
+     "s": 0.71,
+     "r": -16
+    },
+    {
+     "id": "sao",
+     "x": 0.12,
+     "y": 0.88,
+     "s": 0.78,
+     "r": -16
+    }
+   ]
+  },
+  {
+   "i": 37,
+   "message": "Kính chúc bà luôn vui khoẻ để còn xem chúng con lớn lên.",
+   "template": "phan",
+   "stickers": [
+    {
+     "id": "mat-troi",
+     "x": 0.15,
+     "y": 0.86,
+     "s": 0.7,
+     "r": 14
+    },
+    {
+     "id": "tao",
+     "x": 0.88,
+     "y": 0.88,
+     "s": 0.67,
+     "r": -16
+    }
+   ]
+  },
+  {
+   "i": 38,
+   "message": "Chúc bà đi đâu cũng gặp điều may, về nhà gặp niềm vui.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "huy-hieu",
+     "x": 0.87,
+     "y": 0.08,
+     "s": 0.78,
+     "r": -5
+    }
+   ]
+  },
+  {
+   "i": 39,
+   "message": "Chúc bà trăm năm vẫn tươi, nghìn năm vẫn xanh như cây cổ thụ.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "hoa",
+     "x": 0.86,
+     "y": 0.88,
+     "s": 0.85,
+     "r": -8
+    }
+   ]
+  },
+  {
+   "i": 40,
+   "message": "Chúng con yêu bà! Chúc bà 20/11 thật vui.",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "sach",
+     "x": 0.15,
+     "y": 0.86,
+     "s": 0.77,
+     "r": -12
+    },
+    {
+     "id": "la",
+     "x": 0.85,
+     "y": 0.9,
+     "s": 0.67,
+     "r": 9
+    },
+    {
+     "id": "hoa",
+     "x": 0.88,
+     "y": 0.07,
+     "s": 0.74,
+     "r": 10
+    }
+   ]
+  },
+  {
+   "i": 41,
+   "message": "Chúc bà mỗi ngày đều là một ngày đáng nhớ.",
+   "template": "sach",
+   "stickers": [
+    {
+     "id": "sao",
+     "x": 0.88,
+     "y": 0.08,
+     "s": 0.65,
+     "r": -4
+    },
+    {
+     "id": "but",
+     "x": 0.12,
+     "y": 0.89,
+     "s": 0.68,
+     "r": -14
+    },
+    {
+     "id": "no",
+     "x": 0.87,
+     "y": 0.9,
+     "s": 0.7,
+     "r": -18
+    }
+   ]
+  },
+  {
+   "i": 42,
+   "message": "Con chúc bà khoẻ mạnh, an vui, mọi việc đều thuận lợi.",
+   "template": "sen",
+   "stickers": [
+    {
+     "id": "sach",
+     "x": 0.12,
+     "y": 0.87,
+     "s": 0.76,
+     "r": 0
+    },
+    {
+     "id": "tim",
+     "x": 0.85,
+     "y": 0.9,
+     "s": 0.63,
+     "r": 7
+    }
+   ]
+  },
+  {
+   "i": 43,
+   "message": "Mong những lời chúc nhỏ trên cây này mang tới bà thật nhiều niềm vui.",
+   "template": "cuc",
+   "stickers": [
+    {
+     "id": "sao",
+     "x": 0.13,
+     "y": 0.89,
+     "s": 0.7,
+     "r": -11
+    },
+    {
+     "id": "bong-bay",
+     "x": 0.86,
+     "y": 0.87,
+     "s": 0.75,
+     "r": 13
+    },
+    {
+     "id": "huy-hieu",
+     "x": 0.88,
+     "y": 0.09,
+     "s": 0.76,
+     "r": 13
+    }
+   ]
+  },
+  {
+   "i": 44,
+   "message": "Kính chúc bà một đời an nhiên, hạnh phúc trọn vẹn.",
+   "template": "la-thu",
+   "stickers": [
+    {
+     "id": "no",
+     "x": 0.86,
+     "y": 0.88,
+     "s": 0.72,
+     "r": -17
+    }
+   ]
+  }
+ ]
+}

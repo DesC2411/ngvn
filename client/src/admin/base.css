@@ -1,0 +1,86 @@
+/* Nền chung cho 3 trang: Quản trị, Thầy cô, Sổ Tri Ân */
+:root {
+  --navy: #0F2247;
+  --navy-2: #1B3566;
+  --navy-soft: #E8ECF5;
+  --orange: #E9973B;
+  --orange-2: #D07F22;
+  --orange-soft: #FCEEDD;
+  --cream: #FFF9F0;
+  --ink: #1D2433;
+  --muted: #667085;
+  --line: #E3E6EE;
+  --ok: #1F9D61;
+  --ok-soft: #E3F5EC;
+  --warn: #B7791F;
+  --warn-soft: #FFF4DB;
+  --bad: #C8372D;
+  --bad-soft: #FDE7E5;
+  --radius: 14px;
+  --shadow: 0 6px 24px rgba(15, 34, 71, .10);
+  --font: 'Be Vietnam Pro', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --hand: 'Dancing Script', 'Be Vietnam Pro', cursive;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; font-family: var(--font); color: var(--ink); background: #F5F6FA; line-height: 1.5; }
+button, input, select, textarea { font: inherit; color: inherit; }
+img { max-width: 100%; }
+a { color: var(--navy); }
+[hidden] { display: none !important; }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+  min-height: 38px; padding: 7px 14px; border-radius: 10px; border: 1px solid transparent;
+  background: var(--navy-soft); color: var(--navy); font-weight: 600; cursor: pointer;
+  text-decoration: none; white-space: nowrap; transition: background .15s, transform .05s;
+}
+.btn:hover { filter: brightness(.97); }
+.btn:active { transform: translateY(1px); }
+.btn:disabled { opacity: .5; cursor: not-allowed; }
+.btn-primary { background: var(--navy); color: #fff; }
+.btn-accent { background: var(--orange); color: #fff; }
+.btn-ok { background: var(--ok); color: #fff; }
+.btn-warn { background: var(--warn-soft); color: var(--warn); border-color: #F1D9A6; }
+.btn-danger { background: var(--bad-soft); color: var(--bad); border-color: #F5C2BD; }
+.btn-ghost { background: transparent; border-color: var(--line); color: var(--ink); }
+.btn-sm { min-height: 30px; padding: 4px 10px; font-size: 13px; border-radius: 8px; }
+
+.input, select.input, textarea.input {
+  width: 100%; min-height: 40px; padding: 8px 12px; border-radius: 10px;
+  border: 1px solid #CBD2E0; background: #fff; outline: none;
+}
+.input:focus { border-color: var(--orange); box-shadow: 0 0 0 3px rgba(233, 151, 59, .2); }
+
+.badge {
+  display: inline-flex; align-items: center; min-width: 20px; height: 20px; padding: 0 6px;
+  border-radius: 999px; font-size: 12px; font-weight: 700; background: var(--orange); color: #fff; justify-content: center;
+}
+.badge.zero { background: #D5DAE5; color: #55607A; }
+
+.pill { display: inline-block; padding: 1px 9px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+.st-pending { background: var(--warn-soft); color: var(--warn); }
+.st-approved { background: var(--ok-soft); color: var(--ok); }
+.st-hidden { background: #ECEEF3; color: #5B6478; }
+
+/* Thông báo nhỏ */
+.toast-box { position: fixed; left: 50%; bottom: 20px; transform: translateX(-50%); z-index: 1000; display: grid; gap: 8px; width: min(92vw, 420px); pointer-events: none; }
+.toast { padding: 11px 16px; border-radius: 12px; background: var(--navy); color: #fff; box-shadow: var(--shadow); font-weight: 500; transition: opacity .35s, transform .35s; }
+.toast-err { background: var(--bad); }
+.toast.out { opacity: 0; transform: translateY(8px); }
+
+/* Hộp xác nhận */
+.dlg { border: none; border-radius: 16px; padding: 0; width: min(92vw, 420px); box-shadow: 0 20px 60px rgba(0,0,0,.3); }
+.dlg::backdrop { background: rgba(15, 34, 71, .45); }
+.dlg-body { padding: 20px; }
+.dlg-body h3 { margin: 0 0 8px; color: var(--navy); }
+.dlg-body p { margin: 0 0 16px; color: var(--muted); }
+.dlg-actions { display: flex; gap: 8px; justify-content: flex-end; }
+
+.empty { text-align: center; color: var(--muted); padding: 40px 16px; }
+.spinner { width: 28px; height: 28px; border: 3px solid var(--navy-soft); border-top-color: var(--orange); border-radius: 50%; animation: spin .8s linear infinite; margin: 30px auto; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.mock-flag { position: fixed; right: 10px; bottom: 10px; z-index: 999; background: #7A2E9E; color: #fff; font-size: 12px; font-weight: 700; padding: 3px 9px; border-radius: 999px; pointer-events: none; }
+@media print { .mock-flag, .toast-box { display: none !important; } }
